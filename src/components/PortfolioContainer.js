@@ -3,9 +3,10 @@ import NavTabs from "./NavTabs";
 import About from "./pages/About";
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
+import Portfolio from "./pages/Portfolio";
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState("About Me");
+  const [currentPage, setCurrentPage] = useState("About");
 
   const renderPage = () => {
     if (currentPage === "About") {
@@ -13,6 +14,9 @@ export default function PortfolioContainer() {
     }
     if (currentPage === "Resume") {
       return <Resume />;
+    }
+    if (currentPage === "Portfolio") {
+      return <Portfolio />
     }
     return <Contact />;
   };
