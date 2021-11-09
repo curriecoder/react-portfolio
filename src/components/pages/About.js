@@ -2,7 +2,8 @@ import React from "react";
 
 export default function About() {
   return (
-    <>
+    <div className="container">
+    
       <h1>About Me</h1>
       <p>
         Born in Missouri and raised in Arizona, I have spent many of my adult
@@ -18,6 +19,6 @@ export default function About() {
         excitement was still present with every new hurdle passed and knowledge
         gained. I am thrilled to be starting a new career as a junior full stack web developer!
       </p>
-    </>
+    </div>
   );
 }
