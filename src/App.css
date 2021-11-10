@@ -1,3 +1,26 @@
 * {
+  background-color: #108194;
+  color: rgb(216, 216, 216);
+}
+
+.card {
   background-color: aquamarine;
+  height: 21rem;
+  width: 25rem;
+  justify-content: center;
+  /* border: 2px, solid, rgb(216, 216, 216); */
+}
+
+.card-body {
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+}
+
+.nav-item a{
+  color: rgb(216, 216, 216);
+}
+
+.nav-link:focus{
+  color: rgb(216, 216, 216);
 }

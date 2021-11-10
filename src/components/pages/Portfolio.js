@@ -5,7 +5,7 @@ export default function Portfolio() {
     <div className="container">
       <h1>Portfolio</h1>
       <div className="row justify-content-between align-items-center my-5">
-        <div className="card" style={{ width: "25rem" }}>
+        <div className="card my-2">
           <img src="/assets/images/get-to-work.png" alt="get-to-work-app" />
 
           <div className="card-body">
@@ -21,7 +21,7 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div className="card" style={{ width: "25rem" }}>
+        <div className="card">
           <img src="/assets/images/code-quiz.png" alt="code-quiz-app" />
           <div className="card-body">
             <p className="card-text">
@@ -36,7 +36,7 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div className="card" style={{ width: "25rem" }}>
+        <div className="card">
           <img
             src="/assets/images/weather-forecast.png"
             alt="weather-dashboard-app"

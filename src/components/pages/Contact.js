@@ -1,19 +1,25 @@
 import React, { useState } from "react";
 
-
-export default function Contact () {
+export default function Contact() {
   const [userName, setUserName] = useState("");
   const [email, setEmail] = useState("");
   const [body, setBody] = useState("");
-  
+
   const handleInputChange = (e) => {
-    const { name, value } = e.target;
-    return name === "userName" ? setUserName(value) : setEmail(value);
+    const { input, value } = e.target;
+    if (input === "userName") {
+      setUserName(value);
+    } else if (input === "email") {
+      setEmail(value);
+    } else {
+      setBody(value);
+    }
+    // return name === "userName" ? setUserName(value) : setEmail(value);
   };
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
-  
+
     alert(`Thank you for your submission ${userName}`);
     setUserName("");
     setEmail("");
@@ -21,7 +27,8 @@ export default function Contact () {
   };
 
   return (
-    <div>
+    <div className="container">
+      <h1>Contact</h1>
       <form className="form">
         <input
           value={userName}
@@ -47,24 +54,31 @@ export default function Contact () {
           Submit
         </button>
       </form>
+
       <form class="p-4 p-md-5 border rounded-3 bg-light">
-          <div class="form-floating mb-3">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"/>
-            <label for="floatingInput">Email address</label>
-          </div>
-          <div class="form-floating mb-3">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password"/>
-            <label for="floatingPassword">Password</label>
-          </div>
-          <div class="checkbox mb-3">
-            <label>
-              <input type="checkbox" value="remember-me"/> Remember me
-            </label>
-          </div>
-          <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
-          <hr class="my-4"/>
-          <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
-        </form>
+        <div class="form-floating mb-3">
+          <input
+            type="email"
+            class="form-control"
+            id="floatingInput"
+            placeholder="name@example.com"
+          />
+          <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input
+            type="password"
+            class="form-control"
+            id="floatingPassword"
+            placeholder="Password"
+          />
+          <label for="floatingPassword">Password</label>
+        </div>
+        <button class="w-100 btn btn-lg btn-success" type="submit">
+          Submit
+        </button>
+        <hr class="my-4" />
+      </form>
     </div>
   );
 }

@@ -3,9 +3,9 @@ import React from "react";
 export default function About() {
   return (
     <div className="container">
-    
-      <h1>About Me</h1>
-      <p>
+
+      <h1 className="mx-auto">About Me</h1>
+      <p className="mx-auto my-5">
         Born in Missouri and raised in Arizona, I have spent many of my adult
         years looking for my tribe, I feel I finally have found them in the
         field of programming! My first time experiencing the joys (and
