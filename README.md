@@ -1,6 +1,6 @@
 # React Portfolio
 
-Deployed:
+Deployed: https://curriecoder.github.io/react-portfolio/
 
 Repo: https://github.com/curriecoder/react-portfolio
 
