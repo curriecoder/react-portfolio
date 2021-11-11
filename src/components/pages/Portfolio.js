@@ -17,6 +17,14 @@ export default function Portfolio() {
               >
                 Get to Work
               </a>
+              <br />
+              <a
+                href="https://github.com/curriecoder/project-management-application"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Repo
+              </a>
             </p>
           </div>
         </div>
@@ -31,6 +39,14 @@ export default function Portfolio() {
                 rel="noreferrer"
               >
                 Code Quiz
+              </a>
+              <br />
+              <a
+                href="https://github.com/curriecoder/code-quiz"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Repo
               </a>
             </p>
           </div>
@@ -50,6 +66,14 @@ export default function Portfolio() {
               >
                 Weather Dashboard
               </a>
+              <br />
+              <a
+                href="https://github.com/curriecoder/weather-dashboard"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Repo
+              </a>
             </p>
           </div>
         </div>
@@ -68,20 +92,13 @@ export default function Portfolio() {
               >
                 Pack Rat
               </a>
-            </p>
-          </div>
-        </div>
-
-        <div className="card" style={{ width: "25rem" }}>
-          <img src="/assets/images/cat-and-mouse.png" alt="cat-and-mouse-app" />
-          <div className="card-body">
-            <p className="card-text">
+              <br />
               <a
-                href="https://scratch.mit.edu/projects/562229393/"
+                href="https://github.com/curriecoder/Pack-Rat"
                 target="_blank"
                 rel="noreferrer"
               >
-                Cat and Mouse Game
+                Repo
               </a>
             </p>
           </div>
@@ -101,6 +118,31 @@ export default function Portfolio() {
               >
                 PWA Budget Tracker
               </a>
+              <br />
+              <a
+                href="https://github.com/curriecoder/online-offline-budget-tracker"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Repo
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div className="card" style={{ width: "25rem" }}>
+          <img src="/assets/images/cat-and-mouse.png" alt="cat-and-mouse-app" />
+          <div className="card-body">
+            <p className="card-text">
+              <a
+                href="https://scratch.mit.edu/projects/562229393/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Cat and Mouse Game
+              </a>
+              <br />
+              <a href="#">Repo</a>
             </p>
           </div>
         </div>

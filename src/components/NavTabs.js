@@ -47,6 +47,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
           </a>
         </li>
       </ul>
+      <p className="header-name">by CurrieCoder</p>
     </header>
   );
 }
