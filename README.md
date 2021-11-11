@@ -1,37 +1,40 @@
-// GIVEN a single-page application portfolio for a web developer
+# React Portfolio
 
-// WHEN I load the portfolio
-// THEN I am presented with a page containing a header, a section for content, and a footer
+Deployed:
 
-// WHEN I view the header
-// THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
+Repo: https://github.com/curriecoder/react-portfolio
 
-// WHEN I view the navigation titles
-// THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
+## Description
 
-// WHEN I click on a navigation title
-// THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted
+This portfolio was creacted using React, which is a new technology for me. I wanted to get used to using React for my views in the Model View Controller design because it is very popular in today's market. The main motivation for creating this project is to showcase my current skill level, as well as a sample of the work I have done so far. I learned a metric ton about React and how to build a single page application using conditional rendering. This portfolio allows me to gain additional visibility in the job market.
 
-// WHEN I load the portfolio the first time
-// THEN the About Me title and section are selected by default
+![screenshot](public/assets/images/screenshot.png)
 
-// WHEN I am presented with the About Me section
-// THEN I see a recent photo or avatar of the developer and a short bio about them
 
-// WHEN I am presented with the Portfolio section
-// THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repositories
+## Credits
 
-// WHEN I am presented with the Contact section
-// THEN I see a contact form with fields for a name, an email address, and a message
+I would like to thank the instructor and support staff at the UPenn LPS Coding Bootcamp for their support and prioritization of the students. As always, thank you to the online community of web developers and the vast knowledge base that everyone has made available, to those willing to look.
 
-// WHEN I move my cursor out of one of the form fields without entering text
-// THEN I receive a notification that this field is required
+## License
 
-// WHEN I enter text into the email address field
-// THEN I receive a notification if I have entered an invalid email address
+MIT License
 
-// WHEN I am presented with the Resume section
-// THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
+Copyright (c) [2021] [Andrew Currie]
 
-// WHEN I view the footer
-// THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

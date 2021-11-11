@@ -32,6 +32,15 @@ export default function Footer() {
             LinkedIn Profile
           </a>
         </li>
+        <li className="footer-item">
+          <a
+            href="https://soundcloud.com/user-956212347"
+            target="_blank"
+            rel="noreferrer"
+          >
+            SoundCloud Profile
+          </a>
+        </li>
       </ul>
     </div>
   );
