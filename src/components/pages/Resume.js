@@ -1,6 +1,6 @@
 import React from "react";
+import resumeImg from "../../assets/images/Resume.png";
 
-// use an a tag to open in new tab target=_blank noopener.
 export default function Resume() {
   return (
     <div className="container">
@@ -9,7 +9,7 @@ export default function Resume() {
         Click here to open my resume in a new tab.
       </a>
       <br />
-      <img src="/assets/images/Resume.png" alt="resume" />
+      <img src={resumeImg} alt="resume" />
     </div>
   );
 }

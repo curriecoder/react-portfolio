@@ -1,11 +1,12 @@
 import React from "react";
+import avatar from "../../assets/images/The-Mask.png";
 
 export default function About() {
   return (
     <div>
       <img
         className="avatar-img"
-        src="/assets/images/The-Mask.png"
+        src={avatar}
         alt="avatar"
       />
       <div className="container">

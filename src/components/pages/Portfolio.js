@@ -1,12 +1,19 @@
 import React from "react";
+import getToWork from "../../assets/images/get-to-work.png";
+import codeQuiz from "../../assets/images/code-quiz.png";
+import weatherForecast from "../../assets/images/weather-forecast.png";
+import packRat from "../../assets/images/pack-rat-scrnsht.png";
+import budgetTracker from "../../assets/images/pwa-budget-tracker.png";
+import catAndMouse from "../../assets/images/cat-and-mouse.png";
+
 
 export default function Portfolio() {
   return (
     <div className="container">
       <h1>Portfolio</h1>
       <div className="row justify-content-between align-items-center my-5">
-        <div className="card my-2">
-          <img src="/assets/images/get-to-work.png" alt="get-to-work-app" />
+        <div className="card">
+          <img src={getToWork} alt="get-to-work-app" />
 
           <div className="card-body">
             <p className="card-text">
@@ -30,7 +37,7 @@ export default function Portfolio() {
         </div>
 
         <div className="card">
-          <img src="/assets/images/code-quiz.png" alt="code-quiz-app" />
+          <img src={codeQuiz} alt="code-quiz-app" />
           <div className="card-body">
             <p className="card-text">
               <a
@@ -53,10 +60,7 @@ export default function Portfolio() {
         </div>
 
         <div className="card">
-          <img
-            src="/assets/images/weather-forecast.png"
-            alt="weather-dashboard-app"
-          />
+          <img src={weatherForecast} alt="weather-dashboard-app" />
           <div className="card-body">
             <p className="card-text">
               <a
@@ -80,8 +84,8 @@ export default function Portfolio() {
       </div>
 
       <div className="row justify-content-between align-items-center my-5">
-        <div className="card" style={{ width: "25rem" }}>
-          <img src="/assets/images/pack-rat-scrnsht.png" alt="pack-rat-app" />
+        <div className="card">
+          <img src={packRat} alt="pack-rat-app" />
 
           <div className="card-body">
             <p className="card-text">
@@ -104,11 +108,8 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div className="card" style={{ width: "25rem" }}>
-          <img
-            src="/assets/images/pwa-budget-tracker.png"
-            alt="pwa-budget-tracker-app"
-          />
+        <div className="card">
+          <img src={budgetTracker} alt="pwa-budget-tracker-app" />
           <div className="card-body">
             <p className="card-text">
               <a
@@ -130,8 +131,8 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div className="card" style={{ width: "25rem" }}>
-          <img src="/assets/images/cat-and-mouse.png" alt="cat-and-mouse-app" />
+        <div className="card">
+          <img src={catAndMouse} alt="cat-and-mouse-app" />
           <div className="card-body">
             <p className="card-text">
               <a
