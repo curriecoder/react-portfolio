@@ -1,6 +1,7 @@
 import React from "react";
 import avatar from "../../assets/images/The-Mask.png";
 
+// TODO: Fix avatar overrunning 'about' section (put avatar on index)
 export default function About() {
   return (
     <div>
@@ -11,6 +12,7 @@ export default function About() {
       />
       <div className="container">
         <h1 className="mx-auto">About Me</h1>
+        {/* TODO: Update about me and include mission statement */}
         <p className="mx-auto my-5">
           Born in Missouri and raised in Arizona, I have spent many of my adult
           years looking for my tribe, I feel I finally have found them in the
