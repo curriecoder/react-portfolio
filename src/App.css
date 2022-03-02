@@ -3,8 +3,10 @@
 /* TODO: Fix alignment on portfolio cards */
 
 *{
-  background-color: #108194;
-  color: rgb(216, 216, 216);
+  /* background-color: #108194; */
+  /* color: rgb(216, 216, 216); */
+  --bgColor: #108194;
+  --textColor: rgb(216, 216, 216);
 }
 
 body{
