@@ -27,7 +27,7 @@ export default function Footer() {
         </li>
         <li className="footer-item">
           <a
-            href="https://www.linkedin.com/in/andrew-currie-43423421a/"
+            href="https://www.linkedin.com/in/andrewjcurrie0/"
             target="_blank"
             rel="noreferrer"
           >
