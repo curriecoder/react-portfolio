@@ -12,7 +12,7 @@ export default function Portfolio() {
     <div className="container">
       <h1>Portfolio</h1>
       <div className="row justify-content-between align-items-center my-5">
-        <div className="card">
+        <div className="card border-secondary mb-3">
           <img src={getToWork} alt="get-to-work-app" />
 
           <div className="card-body">
@@ -36,7 +36,7 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div className="card">
+        <div className="card border-secondary mb-3">
           <img src={codeQuiz} alt="code-quiz-app" />
           <div className="card-body">
             <p className="card-text">
@@ -59,7 +59,7 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div className="card">
+        <div className="card border-secondary mb-3">
           <img src={weatherForecast} alt="weather-dashboard-app" />
           <div className="card-body">
             <p className="card-text">
@@ -84,7 +84,7 @@ export default function Portfolio() {
       </div>
 
       <div className="row justify-content-between align-items-center my-5">
-        <div className="card">
+        <div className="card border-secondary mb-3">
           <img src={packRat} alt="pack-rat-app" />
 
           <div className="card-body">
@@ -108,7 +108,7 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div className="card">
+        <div className="card border-secondary mb-3">
           <img src={budgetTracker} alt="pwa-budget-tracker-app" />
           <div className="card-body">
             <p className="card-text">
@@ -131,7 +131,7 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div className="card">
+        <div className="card border-secondary mb-3">
           <img src={catAndMouse} alt="cat-and-mouse-app" />
           <div className="card-body">
             <p className="card-text">

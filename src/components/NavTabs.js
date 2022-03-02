@@ -1,4 +1,5 @@
 import React from "react";
+import avatar from "../assets/images/The-Mask.png";
 
 export default function NavTabs({ currentPage, handlePageChange }) {
   return (
@@ -47,7 +48,13 @@ export default function NavTabs({ currentPage, handlePageChange }) {
           </a>
         </li>
       </ul>
-      <p className="header-name">by CurrieCoder</p>
+
+      <div className="header-nameAvatar mx-2">
+        <div className="avatarImg">
+          <img src={avatar} alt="avatar image"/>
+        </div>
+        by CurrieCoder
+      </div>
     </header>
   );
 }
