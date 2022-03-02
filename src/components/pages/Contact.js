@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+// TODO: For gods sake make the contact form work
 export default function Contact() {
   // **For future use when the form actually submits somewhere
   // const [userName, setUserName] = useState("");
