@@ -20,7 +20,13 @@ body{
 .avatar-img{
   border-radius: 50%;
   position: absolute;
-  margin-left: 2rem;
+  max-width: 7rem;
+  padding-top: 0.25rem;
+}
+
+.header-name{
+  position: absolute;
+  top: 11rem;
 }
 
 .card{

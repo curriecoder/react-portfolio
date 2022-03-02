@@ -50,10 +50,8 @@ export default function NavTabs({ currentPage, handlePageChange }) {
       </ul>
 
       <div className="header-nameAvatar mx-2">
-        <div className="avatarImg">
-          <img src={avatar} alt="avatar image"/>
-        </div>
-        by CurrieCoder
+        <img className="avatar-img" src={avatar} alt="avatar image" />
+        <p className="header-name">by CurrieCoder</p>
       </div>
     </header>
   );
