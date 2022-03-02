@@ -6,9 +6,9 @@ Repo: https://github.com/curriecoder/react-portfolio
 
 ## Description
 
-This portfolio was creacted using React, which is a new technology for me. I wanted to get used to using React for my views in the Model View Controller design because it is very popular in today's market. The main motivation for creating this project is to showcase my current skill level, as well as a sample of the work I have done so far. I learned a metric ton about React and how to build a single page application using conditional rendering. This portfolio allows me to gain additional visibility in the job market.
+This portfolio was creacted using React to display works. I wanted to get used to using React for MVC due to it's popularity in the market. The main motivation for creating this project is to showcase projects I have been a part of to potential collaborators/employers. I learned a metric ton about React and how to build a single page application that feels like a multi-page application using conditional rendering. This portfolio allows me to gain additional visibility in the job market.
 
-![screenshot](public/assets/images/screenshot.png)
+![screenshot](src/assets/images/screenshot.png)
 
 
 ## Credits
