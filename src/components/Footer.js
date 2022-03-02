@@ -1,7 +1,7 @@
 import React from "react";
-
-// TODO: Fix footer overrunning content
-// TODO: Add bottom padding to footer
+// TODO: stick footer to the bottom of the page.
+//X TODO: Fix footer overrunning content
+//X TODO: Add bottom padding to footer
 export default function Footer() {
   return (
     <div className="footer">
