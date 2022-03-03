@@ -1,6 +1,6 @@
 import React from "react";
 
-// TODO: Fix avatar overrunning 'about' section (put avatar on index)
+//X TODO: Fix avatar overrunning 'about' section (put avatar on index)
 export default function About() {
   return (
     <div className="container">

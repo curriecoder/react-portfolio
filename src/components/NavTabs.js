@@ -4,6 +4,7 @@ import avatar from "../assets/images/The-Mask.png";
 export default function NavTabs({ currentPage, handlePageChange }) {
   return (
     <header className="my-3">
+     <div className="row">
       <ul className="nav nav-tabs">
         <li className="nav-item">
           <a
@@ -49,9 +50,11 @@ export default function NavTabs({ currentPage, handlePageChange }) {
         </li>
       </ul>
 
-      <div className="header-nameAvatar mx-2">
+      <div className="header-nameAvatar justify-content center">
         <img className="avatar-img" src={avatar} alt="avatar image" />
         <p className="header-name">by CurrieCoder</p>
+     
+      </div>
       </div>
     </header>
   );

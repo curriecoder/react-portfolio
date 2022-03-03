@@ -17,16 +17,19 @@ body{
   margin-bottom: 60px;
 }
 
+.header-nameAvatar{
+  /* position: -webkit-sticky; */
+  position: absolute;
+  top: 4rem;
+}
+
 .avatar-img{
   border-radius: 50%;
-  position: absolute;
   max-width: 7rem;
-  padding-top: 0.25rem;
 }
 
 .header-name{
   position: absolute;
-  top: 11rem;
 }
 
 .card{
