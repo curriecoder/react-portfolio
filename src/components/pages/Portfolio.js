@@ -6,15 +6,15 @@ import packRat from "../../assets/images/pack-rat-scrnsht.png";
 import budgetTracker from "../../assets/images/pwa-budget-tracker.png";
 import catAndMouse from "../../assets/images/cat-and-mouse.png";
 
-// TODO: USING TWO ROWS BREAKS SMALL SCREEN VIEWS, MUST BE ONE DISPLAY USING COLUMNS
+//X TODO: USING TWO ROWS BREAKS SMALL SCREEN VIEWS, MUST BE ONE DISPLAY USING COLUMNS
 // TODO: Change out cat and mouse game for a different project
 export default function Portfolio() {
   return (
     <div className="container">
       <h1>Portfolio</h1>
-      <div className="row justify-content-between align-items-center my-5">
+      <div className="row justify-content-around align-content-center">
         {/* TODO: Not sure if I like the stark white for the border on the cards */}
-        <div className="card border border-white mb-3">
+        <div className="card col-6 col-sm-12 border border-white mb-3">
           <img src={getToWork} alt="get-to-work-app" />
           <div className="card-body">
             <p className="card-text">
@@ -37,7 +37,7 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div className="card border border-white mb-3">
+        <div className="card col-6 col-sm-12 border border-white mb-3">
           <img src={codeQuiz} alt="code-quiz-app" />
           <div className="card-body">
             <p className="card-text">
@@ -60,7 +60,7 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div className="card border border-white mb-3">
+        <div className="card col-6 col-sm-12 border border-white mb-3">
           <img src={weatherForecast} alt="weather-dashboard-app" />
           <div className="card-body">
             <p className="card-text">
@@ -83,7 +83,9 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div className="card border border-white mb-3">
+        <div className="w-100"></div>
+
+        <div className="card col-6 col-sm-12 border border-white mb-3">
           <img src={packRat} alt="pack-rat-app" />
 
           <div className="card-body">
@@ -107,7 +109,7 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div className="card border border-white mb-3">
+        <div className="card col-6 col-sm-12 border border-white mb-3">
           <img src={budgetTracker} alt="pwa-budget-tracker-app" />
           <div className="card-body">
             <p className="card-text">
@@ -130,7 +132,7 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div className="card border border-white mb-3">
+        <div className="card col-6 col-sm-12 border border-white mb-3">
           <img src={catAndMouse} alt="cat-and-mouse-app" />
           <div className="card-body">
             <p className="card-text">

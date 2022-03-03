@@ -37,7 +37,6 @@ body{
   background-color: var(--bgColor);
   height: 15rem;
   width: 20rem;
-  /* align-content: center; */
 }
 
 .card-body{
