@@ -33,13 +33,15 @@ body{
 }
 
 .card{
+  padding-top: 1rem;
   background-color: var(--bgColor);
-  height: 20rem;
+  height: 15rem;
   width: 20rem;
-  align-content: center;
+  /* align-content: center; */
 }
 
 .card-body{
+  padding-bottom: 0;
   font-weight: bold;
   text-align: center;
   align-items: center;
@@ -76,9 +78,9 @@ textarea{
   background-color: var(--bgColor);
 }
 
+
 .footer-list{
-  padding-top: 25px;
-  width: 80%;
+  width: 90%;
   list-style: none;
   text-decoration: underline;
   display: inline-flex;

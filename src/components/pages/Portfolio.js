@@ -7,7 +7,7 @@ import budgetTracker from "../../assets/images/pwa-budget-tracker.png";
 import catAndMouse from "../../assets/images/cat-and-mouse.png";
 
 // TODO: USING TWO ROWS BREAKS SMALL SCREEN VIEWS, MUST BE ONE DISPLAY USING COLUMNS
-
+// TODO: Change out cat and mouse game for a different project
 export default function Portfolio() {
   return (
     <div className="container">
@@ -16,7 +16,6 @@ export default function Portfolio() {
         {/* TODO: Not sure if I like the stark white for the border on the cards */}
         <div className="card border border-white mb-3">
           <img src={getToWork} alt="get-to-work-app" />
-
           <div className="card-body">
             <p className="card-text">
               <a
@@ -83,9 +82,7 @@ export default function Portfolio() {
             </p>
           </div>
         </div>
-      </div>
 
-      <div className="row justify-content-between align-items-center my-5">
         <div className="card border border-white mb-3">
           <img src={packRat} alt="pack-rat-app" />
 
