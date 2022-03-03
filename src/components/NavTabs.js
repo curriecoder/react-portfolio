@@ -61,6 +61,6 @@ export default function NavTabs({ currentPage, handlePageChange }) {
           </div>
         </div>
       </div>
-    </header>
+    </header> 
   );
 }

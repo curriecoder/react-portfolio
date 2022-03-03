@@ -14,13 +14,8 @@
 }
 
 body{
-  margin-bottom: 60px;
+  min-height: 100%;
 }
-
-/* .header-nameAvatar{
-  position: flex;
-  justify-content: space-around;
-} */
 
 .avatar-img{
   display: flex;
@@ -79,6 +74,10 @@ textarea{
   background-color: var(--bgColor);
 }
 
+.footer{
+  width: 100%;
+  padding-top: 100px;
+}
 
 .footer-list{
   width: 90%;
