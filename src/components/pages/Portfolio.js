@@ -12,7 +12,7 @@ export default function Portfolio() {
   return (
     <div className="container">
       <h1>Portfolio</h1>
-      <div className="row justify-content-around align-content-center">
+      <div className="row justify-content-between align-content-center">
         {/* TODO: Not sure if I like the stark white for the border on the cards */}
         <div className="card col-6 col-sm-12 border border-white mb-3">
           <img src={getToWork} alt="get-to-work-app" />

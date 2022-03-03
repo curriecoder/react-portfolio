@@ -23,6 +23,8 @@ body{
 } */
 
 .avatar-img{
+  display: flex;
+  flex-direction: end;
   position: relative;
   border-radius: 50%;
   max-width: 7rem;
@@ -69,7 +71,7 @@ a:hover{
 }
 
 textarea{
-  width: 1200px;
+  width: 100%;
   height: 155px;
 }
 
