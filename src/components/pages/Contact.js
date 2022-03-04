@@ -34,9 +34,6 @@ export default function Contact() {
     
     alert(`Thank you for your submission ${userName}`);
 
-    // this is where we need to send the email with the userName, email, and body.
-    // action="mailto:andrew.j.currie0@gmail.com" method="post" encType="text/plain" 
-
     setUserName("");
     setEmail("");
     setBody("");
