@@ -18,12 +18,25 @@ export default function Contact() {
     }
   };
 
+  function sendMail() {
+    let link = "mailto:andrew.j.currie0@gmail.com"
+             + "?cc=" + `${email}`
+             + "&subject=" + encodeURIComponent(`Name: ${userName}`)
+             + "&body=" + encodeURIComponent(`Message: ${body}`)
+    ;
+    
+    window.location.href = link;
+}
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
+    sendMail();
+    
     alert(`Thank you for your submission ${userName}`);
-    console.log(email);
-    console.log(body);
+
+    // this is where we need to send the email with the userName, email, and body.
+    // action="mailto:andrew.j.currie0@gmail.com" method="post" encType="text/plain" 
+
     setUserName("");
     setEmail("");
     setBody("");
