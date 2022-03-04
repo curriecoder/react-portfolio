@@ -7,20 +7,7 @@ export default function About() {
       <h1 className="mx-auto">About Me</h1>
       {/* TODO: Update about me and include mission statement */}
       <p className="mx-auto my-5">
-        Born in Missouri and raised in Arizona, I have spent many of my adult
-        years looking for my tribe, I feel I finally have found them in the
-        field of programming! My first time experiencing the joys (and
-        headaches) of coding was when I was 11 years old. At that time my school
-        was working with HTML 3.2, doing pretty much everything in-line. I
-        continued playing around with HTML and CSS for many years and now I'm
-        back with renewed vigor! I served in the U.S. Army for five years
-        straight out of high school, learning much about the world during that
-        time. After that chapter had closed, I began searching for my next
-        adventure in past passions. I started self educating in C++ and
-        eventually Python to see if it was an activity I still enjoyed. The
-        excitement was still present with every new hurdle passed and knowledge
-        gained. I am thrilled to be starting a new career as a junior full stack
-        web developer!
+      Software engineer and U.S. Army veteran with experience in coding and advanced troubleshooting. Certificate from University of Pennsylvania in full stack web technologies, including React.js, JavaScript, CSS, HTML, and Node.js. Known as a natural leader with a great attention to detail, I have been an asset to teams providing direction and quality assurance. Understanding the UX as well as how the database is structured has allowed me to work from the front-end to the back-end without issue. I worked on a team of four to develop a multi-page MERN app that allows users to register as a member to gain access to a chess training app with a built- in AI opponent, a live feed of high level chess games, as well as a database that stores chess puzzles to be practiced. In this project I worked primarily on the up front wire framing, the building of the database, taking lead on troubleshooting the front end/deployment issues. My technical aptitude in cutting-edge web technologies, in combination with acute attention to detail while problem solving, make me a strong addition to any team.
       </p>
     </div>
   );

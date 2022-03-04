@@ -1,13 +1,14 @@
 import React from "react";
+import chessmate from "../../assets/images/chessmate.png"
 import getToWork from "../../assets/images/get-to-work.png";
 import codeQuiz from "../../assets/images/code-quiz.png";
 import weatherForecast from "../../assets/images/weather-forecast.png";
 import packRat from "../../assets/images/pack-rat-scrnsht.png";
 import budgetTracker from "../../assets/images/pwa-budget-tracker.png";
-import catAndMouse from "../../assets/images/cat-and-mouse.png";
 
 //X TODO: USING TWO ROWS BREAKS SMALL SCREEN VIEWS, MUST BE ONE DISPLAY USING COLUMNS
-// TODO: Change out cat and mouse game for a different project
+//X TODO: Change out cat and mouse game for a different project
+
 export default function Portfolio() {
   return (
     <div className="container">
@@ -15,7 +16,24 @@ export default function Portfolio() {
       <div className="row justify-content-between align-content-center">
         {/* TODO: Not sure if I like the stark white for the border on the cards */}
         <div className="card col-6 col-sm-12 border border-white mb-3">
-          <img src={getToWork} alt="get-to-work-app" />
+          <img src={chessmate} alt="chessmate image" />
+          <div className="card-body">
+            <p className="card-text">
+              <a
+                href="https://mighty-ravine-90150.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Chessmate
+              </a>
+              <br />
+              <a href="#">Repository</a>
+            </p>
+          </div>
+        </div>
+
+        <div className="card col-6 col-sm-12 border border-white mb-3">
+          <img src={getToWork} alt="get-to-work image" />
           <div className="card-body">
             <p className="card-text">
               <a
@@ -31,14 +49,14 @@ export default function Portfolio() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Repo
+                Repository
               </a>
             </p>
           </div>
         </div>
 
         <div className="card col-6 col-sm-12 border border-white mb-3">
-          <img src={codeQuiz} alt="code-quiz-app" />
+          <img src={codeQuiz} alt="code-quiz image" />
           <div className="card-body">
             <p className="card-text">
               <a
@@ -54,14 +72,16 @@ export default function Portfolio() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Repo
+                Repository
               </a>
             </p>
           </div>
         </div>
 
+        <div className="w-100"></div>
+
         <div className="card col-6 col-sm-12 border border-white mb-3">
-          <img src={weatherForecast} alt="weather-dashboard-app" />
+          <img src={weatherForecast} alt="weather-dashboard image" />
           <div className="card-body">
             <p className="card-text">
               <a
@@ -77,16 +97,14 @@ export default function Portfolio() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Repo
+                Repository
               </a>
             </p>
           </div>
         </div>
 
-        <div className="w-100"></div>
-
         <div className="card col-6 col-sm-12 border border-white mb-3">
-          <img src={packRat} alt="pack-rat-app" />
+          <img src={packRat} alt="pack-rat image" />
 
           <div className="card-body">
             <p className="card-text">
@@ -103,14 +121,14 @@ export default function Portfolio() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Repo
+                Repository
               </a>
             </p>
           </div>
         </div>
 
         <div className="card col-6 col-sm-12 border border-white mb-3">
-          <img src={budgetTracker} alt="pwa-budget-tracker-app" />
+          <img src={budgetTracker} alt="pwa-budget-tracker image" />
           <div className="card-body">
             <p className="card-text">
               <a
@@ -126,27 +144,11 @@ export default function Portfolio() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Repo
+                Repository
               </a>
             </p>
           </div>
-        </div>
 
-        <div className="card col-6 col-sm-12 border border-white mb-3">
-          <img src={catAndMouse} alt="cat-and-mouse-app" />
-          <div className="card-body">
-            <p className="card-text">
-              <a
-                href="https://scratch.mit.edu/projects/562229393/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Cat and Mouse Game
-              </a>
-              <br />
-              <a href="#">Repo</a>
-            </p>
-          </div>
         </div>
       </div>
     </div>
