@@ -7,17 +7,6 @@ export default function Contact() {
   const [email, setEmail] = useState("");
   const [body, setBody] = useState("");
 
-  const handleFormSubmit = (e) => {
-    e.preventDefault();
-
-    alert(`Thank you for your submission ${userName}`);
-    console.log(email);
-    console.log(body);
-    setUserName("");
-    setEmail("");
-    setBody("");
-  };
-
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     if (name === "userName") {
@@ -29,12 +18,24 @@ export default function Contact() {
     }
   };
 
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+
+    alert(`Thank you for your submission ${userName}`);
+    console.log(email);
+    console.log(body);
+    setUserName("");
+    setEmail("");
+    setBody("");
+  };
+
   return (
     <div className="container">
       <h1>Contact</h1>
       <form className="p-4 p-md-5 border rounded-3">
         <div className="mb-3">
           <input
+            value={userName}
             name="userName"
             onChange={handleInputChange}
             type="text"
@@ -46,6 +47,7 @@ export default function Contact() {
         </div>
         <div className="mb-3">
           <input
+            value={email}
             name="email"
             onChange={handleInputChange}
             type="email"
@@ -58,6 +60,7 @@ export default function Contact() {
 
         <label for="floatingText">Type your message here:</label>
         <textarea
+          value={body}
           name="body"
           onChange={handleInputChange}
           className="border rounded-3 text-dark"
