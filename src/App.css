@@ -68,10 +68,15 @@ a:hover{
 textarea{
   width: 100%;
   height: 155px;
+  background-color: var(--textColor);
 }
 
-.form{
-  background-color: var(--bgColor);
+#floatingInput{
+  background-color: var(--textColor);
+}
+
+#floatingName{
+  background-color: var(--textColor);
 }
 
 .footer{
@@ -83,6 +88,5 @@ textarea{
   width: 90%;
   list-style: none;
   text-decoration: underline;
-  /* display: inline-flex; */
-  justify-content: space-between;
+  justify-content: space-around;
 }

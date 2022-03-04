@@ -1,5 +1,5 @@
 import React from "react";
-// TODO: Make footer convert to a stack at small viewports
+//X TODO: Make footer convert to a stack at small viewports
 //X TODO: stick footer to the bottom of the page.
 //X TODO: Fix footer overrunning content
 //X TODO: Add bottom padding to footer
@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="container">
-        <div className="row">
+        <div className="row justify-content-center">
         <ul className="footer-list  d-md-inline-flex">
           <li className="footer-item">555-555-5555</li>
           <li className="footer-item">

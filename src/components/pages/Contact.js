@@ -1,31 +1,33 @@
 import React, { useState } from "react";
 
 // TODO: For gods sake make the contact form work
+
 export default function Contact() {
-  // **For future use when the form actually submits somewhere
-  // const [userName, setUserName] = useState("");
-  // const [email, setEmail] = useState("");
-  // const [body, setBody] = useState("");
+  const [userName, setUserName] = useState("");
+  const [email, setEmail] = useState("");
+  const [body, setBody] = useState("");
 
-  // const handleInputChange = (e) => {
-  //   const { input, value } = e.target;
-  //   if (input === "userName") {
-  //     setUserName(value);
-  //   } else if (input === "email") {
-  //     setEmail(value);
-  //   } else {
-  //     setBody(value);
-  //   }
-  // };
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
 
-  // const handleFormSubmit = (e) => {
-  //   e.preventDefault();
+    alert(`Thank you for your submission ${userName}`);
+    console.log(email);
+    console.log(body);
+    setUserName("");
+    setEmail("");
+    setBody("");
+  };
 
-  //   alert(`Thank you for your submission ${userName}`);
-  //   setUserName("");
-  //   setEmail("");
-  //   setBody("");
-  // };
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    if (name === "userName") {
+      setUserName(value);
+    } else if (name === "email") {
+      setEmail(value);
+    } else if (name === "body") {
+      setBody(value);
+    }
+  };
 
   return (
     <div className="container">
@@ -33,27 +35,40 @@ export default function Contact() {
       <form className="p-4 p-md-5 border rounded-3">
         <div className="mb-3">
           <input
-            type="name"
+            name="userName"
+            onChange={handleInputChange}
+            type="text"
             className="form-control"
             id="floatingName"
-            placeholder="Name"
+            placeholder="First Name Last Name"
           />
           <label for="floatingName">Name</label>
         </div>
         <div className="mb-3">
           <input
+            name="email"
+            onChange={handleInputChange}
             type="email"
             className="form-control"
             id="floatingInput"
-            placeholder="name@example.com"
+            placeholder="email@example.com"
           />
           <label for="floatingInput">Email address</label>
         </div>
 
         <label for="floatingText">Type your message here:</label>
-        <textarea className="border rounded-3" name="body" type="text" />
+        <textarea
+          name="body"
+          onChange={handleInputChange}
+          className="border rounded-3 text-dark"
+          type="text"
+        />
         <div className="text-center">
-          <button className="w-50 btn btn-lg btn-success" type="submit">
+          <button
+            className="w-50 btn btn-lg btn-success"
+            type="button"
+            onClick={handleFormSubmit}
+          >
             Submit
           </button>
         </div>
