@@ -1,8 +1,4 @@
 import React from "react";
-//X TODO: Make footer convert to a stack at small viewports
-//X TODO: stick footer to the bottom of the page.
-//X TODO: Fix footer overrunning content
-//X TODO: Add bottom padding to footer
 export default function Footer() {
   return (
     <footer className="footer">

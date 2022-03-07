@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 
-//X TODO: For gods sake make the contact form work
-
 export default function Contact() {
   const [userName, setUserName] = useState("");
   const [email, setEmail] = useState("");

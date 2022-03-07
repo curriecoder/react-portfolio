@@ -6,15 +6,11 @@ import weatherForecast from "../../assets/images/weather-forecast.png";
 import packRat from "../../assets/images/pack-rat-scrnsht.png";
 import budgetTracker from "../../assets/images/pwa-budget-tracker.png";
 
-//X TODO: USING TWO ROWS BREAKS SMALL SCREEN VIEWS, MUST BE ONE DISPLAY USING COLUMNS
-//X TODO: Change out cat and mouse game for a different project
-
 export default function Portfolio() {
   return (
     <div className="container">
       <h1>Portfolio</h1>
       <div className="row justify-content-between align-content-center">
-        {/* TODO: Not sure if I like the stark white for the border on the cards */}
         <div className="card col-6 col-sm-12 border border-white mb-3">
           <img src={chessmate} alt="chessmate image" />
           <div className="card-body">
