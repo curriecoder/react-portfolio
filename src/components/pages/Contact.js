@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-// TODO: For gods sake make the contact form work
+//X TODO: For gods sake make the contact form work
 
 export default function Contact() {
   const [userName, setUserName] = useState("");
