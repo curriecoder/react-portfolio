@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.91579d30.css",
+    "main.js": "/react-portfolio/static/js/main.b3356998.js",
+    "static/media/pack-rat-scrnsht.png": "/react-portfolio/static/media/pack-rat-scrnsht.4b8675c9df0d869d3a5a.png",
+    "static/media/resume.png": "/react-portfolio/static/media/resume.0c39945c95790fcf9b81.png",
+    "static/media/chessmate.png": "/react-portfolio/static/media/chessmate.90e92d26502d9b65e92a.png",
+    "static/media/The-Mask.png": "/react-portfolio/static/media/The-Mask.8aebf95048cbb9505676.png",
+    "static/media/pwa-budget-tracker.png": "/react-portfolio/static/media/pwa-budget-tracker.dbd34c16d8391c4fb373.png",
+    "static/media/weather-forecast.png": "/react-portfolio/static/media/weather-forecast.64764722a982fb87b21b.png",
+    "static/media/get-to-work.png": "/react-portfolio/static/media/get-to-work.a1bdb3fa2a2cf1e3ca32.png",
+    "static/media/code-quiz.png": "/react-portfolio/static/media/code-quiz.9adc482e30634e680bf0.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.91579d30.css.map": "/react-portfolio/static/css/main.91579d30.css.map",
+    "main.b3356998.js.map": "/react-portfolio/static/js/main.b3356998.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91579d30.css",
+    "static/js/main.b3356998.js"
+  ]
+}
